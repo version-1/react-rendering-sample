@@ -1,0 +1,101 @@
+html, *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+} 
+ 
+#root {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+ }
+
+ .App {
+  text-align: center;
+  min-width: 50%;
+ }
+
+ .flex {
+   display: flex;
+ }
+
+ .btn {
+   display: block;
+   width: 100%;
+   padding: 10px 5px;
+   margin: 10px;
+   font-size: 16px;
+   border-radius: 5px;
+ }
+
+ .buttons {
+   border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+ .btn-default {
+   color: white;
+   background-color: #4444bf;
+   border-bottom: 3px solid #1c1c4e;
+ }
+
+ .btn-a {
+   background-color: green;
+   border-bottom: 3px solid #003500;
+ }
+
+ .btn-b {
+   background-color: #e2e26a;
+   border-bottom: 3px solid #505025;
+ }
+
+ .btn-c {
+   background-color: #ca2b2b;
+   border-bottom: 3px solid #501111;
+ }
+
+ h2 {
+  padding: 30px;
+ }
+
+ .parent-component {
+   color: white;
+   background-color: #4444bf;
+   border: 1px solid #4444bf;;
+   padding: 10px 30px;
+   border-radius: 5px;
+ }
+
+ .children-component {
+   color: white;
+   background-color: green;
+   border: 1px solid green;
+   padding: 30px;
+   border-radius: 5px;
+   margin: 10px;
+ }
+
+ .children-pure-component {
+   color: white;
+   background-color: #e2e26a;
+   border: 1px solid #e2e26a;
+   padding: 30px;
+   border-radius: 5px;
+   margin: 10px;
+ }
+
+ .sfc {
+   color: white;
+   background-color: #ca2b2b;
+   border: 1px solid #ca2b2b;
+   padding: 30px;
+   border-radius: 5px;
+   margin: 10px;
+ }
+
+ h3 {
+  text-decoration: underline;
+}
