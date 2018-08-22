@@ -62,7 +62,7 @@ class ParentComponent extends Component {
         <h2>Parent Component</h2>
         <ChildrenComponent increment={increment} counter={counter} value={a}/>
         <ChildrenPureComponent increment={increment} callback={this.callback} counter={counter} value={b}/>
-        <SFCComponent increment={increment} counter={counter} value={c}/>
+        <SFC increment={increment} counter={counter} value={c}/>
       </div>
     )
   }
@@ -122,11 +122,11 @@ class ChildrenPureComponent extends PureComponent {
   }
 }
 
-const SFCComponent = (props) => {
-  console.log('SFCComponent')
+const SFC = (props) => {
+  console.log('SFC')
   return (
     <div className="sfc">
-      <h3>SFC component</h3>
+      <h3>SFC</h3>
       <div onClick={props.increment}>counter : <span>{props.counter}</span></div>
       <div>flg : <span>{props.value.toString()}</span></div>
     </div>
